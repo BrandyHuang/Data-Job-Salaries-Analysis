@@ -1,0 +1,27 @@
+TABLE_NAME,COLUMN_NAME,COLUMN_TYPE,COLUMN_KEY,COLUMN_DESCRIPTION
+company_size,company_size_code,varchar(1),PRI,"company size, including S(small), M(medium) and L(large) size"
+company_size,company_size_description,varchar(100),,"the description of size (S, M, L)"
+country,country_code,varchar(2),PRI,ISO 3166 country code
+country,country_name,varchar(100),,The real name of that country code
+currency,currency_code,varchar(3),PRI,ISO 4217 currency code
+currency,currency_name,varchar(100),,The real name of that currency code
+currency_exchange,exchange_rate_usd,"decimal(5,4)",,The exchange rate of that currency to USD of the particular year
+currency_exchange,salary_currency,varchar(3),PRI,The currency type of the salaries 
+currency_exchange,work_year,int,PRI,The year the salary was paid
+Employment_type,Emloyment_description,varchar(100),,The description of employemnt type
+Employment_type,Employment_type,varchar(2),PRI,"The type of employement for the role: PT, FT, CT, FL "
+experience_level,Experience_level,varchar(2),PRI,"The experience level in the job during the year with the following possible values: EN, MI, SE and EX "
+experience_level,Experience_level_description,varchar(100),,The description of experience level
+job,Job_ID,int,PRI,"The role worked in during the year, use an ID to represent."
+job,Job_title,varchar(100),,The role name of employee during the year.
+salaries,company_location,varchar(2),,The country of the employer's main office or contracting branch as an ISO 3166 country code.
+salaries,company_size,varchar(1),MUL,"company size, including S(small), M(medium) and L(large) size"
+salaries,employee_residence,varchar(2),,Residence country from ISO 3166 country code
+salaries,employment_type,varchar(2),MUL,"The type of employement for the role: PT, FT, CT, FL "
+salaries,experience_level,varchar(2),MUL,"The experience level in the job during the year with the following possible values: EN, MI, SE and EX "
+salaries,id,int,PRI,The ID that can identify each row of employee information
+salaries,job_id,int,MUL,"The role worked in during the year, use an ID to represent."
+salaries,remote_ratio,int,,"The overall amount of work done remotely, possible values are as follows: 0 No remote work (less than 20%) 50 Partially remote 100 Fully remote (more than 80%)"
+salaries,salary,int,,The total gross salary amount paid.
+salaries,salary_currency,varchar(3),MUL,The currency of the salary paid as an ISO 4217 currency code.
+salaries,work_year,int,MUL,The year the salary was paid

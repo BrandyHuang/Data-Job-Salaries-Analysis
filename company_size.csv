@@ -1,0 +1,4 @@
+Company_size_code,Company_size_description
+S,SMALL(less than 50 employees)
+M,MEDIUM(20-250 employees)
+L,LARGE(more than 250 employees)
