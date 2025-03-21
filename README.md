@@ -46,9 +46,9 @@
 
 * The exchange rate increased by around 0.3 generally from 2020-2022
 * Trend: Devaluation of US dollar
-** Covid-19 period
-** Inflation accelerated in 2021 and 2022
-** Increased Government Spending and Fiscal Stimulus
+* * Covid-19 period
+* * Inflation accelerated in 2021 and 2022
+* * Increased Government Spending and Fiscal Stimulus
 
 
 ### 5: For each country, the employment type that has the highest percentage of senior-level employees (experience_level = 'SE')
