@@ -10,9 +10,15 @@
 
 
 ## Entity Relationship Diagram(ERD)
-![ERD](ERD.png)
+![ERD](Photo/ERD.png)
+
+
 ## Key insights
+
 ### 1: The total salaries paid by each company size (small, medium, large) across different countries
+
+![Q1](Photo/Q1.png)
+
 | Country Name                | Sum Small Salary  | Sum Medium Salary  | Sum Large Salary  |
 |-----------------------------|-------------------|--------------------|-------------------|
 | United States Of America    | 3,241,672.0000    | 30,835,411.0000    | 17,062,482.0000   |
@@ -27,6 +33,8 @@
 
 
 ### 2: Job titles that have the highest average salaries for employees working fully remotely (remote_ratio = 100)
+
+![Q2](Photo/Q2.png)
 
 * For better comparison, filter remote rate = 100, which means totally work from home
 * Use average to generalize each job position group
@@ -51,6 +59,8 @@
 
 
 ### 4: The average exchange rate of salary currencies to USD for each year in the currency_exchange table, and its variation across time
+
+![Q4](Photo/Q4.png)
 
 | Work Year | Avg Exchange Rate (USD) |
 |-----------|-------------------------|
@@ -91,6 +101,8 @@
 
 
 ### 6: Top 5 job titles with the highest salaries in companies 
+
+![Q6](Photo/Q6.png)
 
 * Related to job levels(Lead/principle/director)
 * Data scientist/analyst/engineer
