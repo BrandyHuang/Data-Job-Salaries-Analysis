@@ -20,7 +20,7 @@
 
 ### 1: The total salaries paid by each company size (small, medium, large) across different countries
 
-![Q1](Photo/Q1.png){ width=50% }
+![Q1](Photo/Q1.png)
 
 | Country Name                | Sum Small Salary  | Sum Medium Salary  | Sum Large Salary  |
 |-----------------------------|-------------------|--------------------|-------------------|
