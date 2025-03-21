@@ -146,5 +146,18 @@
 * Machine learning related job opportunities  
 
 
+## Summary
+
+* US is the one has most diverse data positions
+
+* Machine learning related positions might be some new high-paid jobs
+
+* Generally, US is also the one pay highest salaries among all other countries
+
+* Risk: US currency USD is facing a devaluation situation, so for international workers, high salaries does not mean high value  
+
+
+
+
 
 
