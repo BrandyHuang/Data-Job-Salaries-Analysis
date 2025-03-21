@@ -1,4 +1,7 @@
 # Data Job Salaries Analysis!
+
+## Introduction
+
 #### This project aims utilize SQL-based skills to uncover more insights of Data position salaries around the world! 
 #### It contains the following steps:
 * Data set inspection: feature and potential correlation
