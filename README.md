@@ -10,7 +10,7 @@
 
 
 ## Entity Relationship Diagram(ERD)
-
+![ERD](ERD.png)
 ## Key insights
 ### 1: The total salaries paid by each company size (small, medium, large) across different countries
 | Country Name                | Sum Small Salary  | Sum Medium Salary  | Sum Large Salary  |
