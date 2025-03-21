@@ -8,10 +8,24 @@
 * SQL data base building: split the whole data set into seperate csv files and import data sets as tables to data base (refer to .sql file)
 * Data analysis using SQL query
 
+
 ## Entity Relationship Diagram(ERD)
 
 ## Key insights
 ### 1: The total salaries paid by each company size (small, medium, large) across different countries
+| Country Name                | Sum Small Salary  | Sum Medium Salary  | Sum Large Salary  |
+|-----------------------------|-------------------|--------------------|-------------------|
+| United States Of America    | 3,241,672.0000    | 30,835,411.0000    | 17,062,482.0000   |
+| United Kingdom              | 437,022.5000      | 2,517,091.7500     | 880,362.0280      |
+| Canada                      | 280,921.0000      | 1,406,907.2000     | 1,306,848.4500    |
+| Germany                     | 374,630.1595      | 938,426.2800       | 979,724.6400      |
+| India                       | 52,400.0000       | 131,770.5000       | 501,326.9595      |
+
+* Only show those have all three company sizes
+* From countries: developed countries 
+* From company size:  medium > large > small (percentage of medium companies might be higher)
+
+
 ### 2: Job titles that have the highest average salaries for employees working fully remotely (remote_ratio = 100)
 
 * For better comparison, filter remote rate = 100, which means totally work from home
@@ -46,9 +60,9 @@
 
 * The exchange rate increased by around 0.3 generally from 2020-2022
 * Trend: Devaluation of US dollar
-* * Covid-19 period
-* * Inflation accelerated in 2021 and 2022
-* * Increased Government Spending and Fiscal Stimulus
+  * Covid-19 period
+  * Inflation accelerated in 2021 and 2022
+  * Increased Government Spending and Fiscal Stimulus
 
 
 ### 5: For each country, the employment type that has the highest percentage of senior-level employees (experience_level = 'SE')
